@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(0, 55, 77);
+}
+.header{
+    color: white;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.sub-header{
+    color: white;
+    font-size: 20px;
+}
+.sub-header a{
+    color: #32cdd7;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.sub-header a:hover{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    color: white;
+}
+.choice1{
+    font-size: 35px;
+    margin-top: 50px;  
+}
+.choice2{
+    font-size: 35px;
+    margin-top: 50px;
+}
+.choice3{
+    font-size: 35px;
+    margin-top: 50px;
+}
+button{
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 20px;
+        background-color: white;
+        border: none;
+        color: black;
+        padding: 15px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition: 0.5s;
+}
+button:hover{
+    box-shadow: 8px 8px 50px #32cdd7;
+    transform: translateY(-7px);
+    background-color: #32cdd7;
+}
+#rock,
+#paper,
+#scissors{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .header{
+        font-size: 24px;
+    }
+    .sub-header,
+    .sub-header a{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .choice1{
+        font-size: 24px;
+        margin-top: 50px;  
+    }
+    .choice2{
+        font-size: 24px;
+        margin-top: 50px;
+    }
+    .choice3{
+        font-size: 24px;
+        margin-top: 50px;
+    }
+}
